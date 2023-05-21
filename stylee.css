@@ -1,0 +1,260 @@
+body{
+   font-family: sans-serif;
+   padding: 0;
+   margin: 0;
+   background-color: #f4f4f4;
+   direction: ltr;
+}
+
+.container{
+   width: 80%;
+   margin: auto;
+   overflow: hidden;
+}
+
+ul{
+   margin: 0;
+   padding: 0;
+}
+
+
+header{
+   background: #353637;
+   color: #ffffff;
+   padding-top: 30px;
+   min-height: 70px;
+   border-bottom: blue 5px solid;       
+}
+
+header a{
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 12px;
+}
+
+header li{
+   float: right;
+   display: inline;
+   padding: 0 20px 0 20px;
+}
+
+header #brand{
+   float: left;
+}
+
+header #brand h1{
+   margin: 0;
+   color: blue;
+}
+
+header nav{
+   float: right;
+   margin-top: 10px;
+}
+
+header .current a{
+   color: blue;
+   font-weight: bold;    
+}
+
+header a:hover{
+   color: cccccc;
+   font-weight: bold;
+}
+
+
+#newsletter{
+   padding: 15px;
+   color: #ffffff;
+   background: #353637;
+}
+
+#newsletter h1{
+   float: left;
+}
+
+#newsletter form{
+   float: right;
+   margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+   padding: 4px;
+   height: 25px;
+   width: 250px;
+}
+
+.button{
+   height: 38px;
+   background: #cccccc;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: 3353637;
+}
+
+#boxes{
+   margin-top:20px;
+}
+
+#boxes .box{
+   float: left;
+   text-align: center;
+   width: 30%;
+   padding: 10px; 
+}
+
+footer{
+   padding: 20px; 
+   margin-top: 20px;
+   color: #ffffff;  
+   background-color: blue;
+   text-align: center;
+   font-weight: bol;
+   font-size: 25px;
+}
+
+.contain {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.cont {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  text-align: center;
+  border:1px solid #ccc;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  text-align: left;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+@media(max-width: 768px){
+   header #brand,
+   header nav,
+   header nav li,
+   #newsletter h1, 
+   #newsletter form,
+   #boxes .box
+{
+
+   float: none;
+   text-align: center;
+   width: 100%;
+}
+
+header{
+   padding-bottom: 20px;
+}
+
+#newsletter .button{
+   display:block;
+   width: 100%;
+}
+
+#newsletter form input[type"email"]{
+   width: 100%;
+   margin-bottom: 5px;
+}
+
+}
+
+
+
+   
+   
+
+
+
+
+
